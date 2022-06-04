@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/c01395f813.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="project.html"><img src="./images/croped.jpg" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">STORE</a></li>
+                    <li><a href="">COMMUNITY</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SUPPORT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>World's Best Gaming Website </h1>
+    <p>If you are only getting into browser gaming and you need game ideas,<br> GAME ON features a corner where you can find consoles, free game deals, but also a calendar with popular game releases and gaming news you can read while sipping on a cup of coffee.</p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+</div>
+    </section>
+
+    <!--games-->
+    <section class="games">
+        <h1>Featured Games</h1>
+        <p>We offer our users to download games and other gaming related software's and informations in their virtual libraries and store to their local computers as games and cache files.</p>
+        
+        <div class="row">
+            <div class="games-col">
+                <h3>Grand Theft Auto V</h3>
+                <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. <br>
+                    It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall.</p>
+                   
+            </div>
+            <div class="games-col">
+                <h3>Cyberpunk 2077</h3>
+                <p>Cyberpunk 2077 is an action role-playing video game developed and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe. <br>
+                    Players assume the first-person perspective of a customisable mercenary known as V.</p>
+                    
+                </div>
+            <div class="games-col">
+            <h3>Watch Dogs</h3>
+            <p>Watch Dogs is an action-adventure video game franchise published by Ubisoft, and developed primarily by its Montreal and Toronto studios using the Disrupt game engine.
+               <br> The series eponymous first title was released in 2014.</p>
+            </div>
+        </div>
+    </section>
+
+<!--community-->
+
+<section class="community">
+    <h1>Our Global Community</h1>
+    <p>Community hubs are collections of all the best community and official game content as rated by users.</p>
+
+    <div class="row">
+        <div class="community-col">
+            <img src="./images/6b303a278176eea2285198cfed263e1a.jpg">
+            <div class="layer">
+                <h3>PlayStation</h3>
+            </div>
+        </div>
+        <div class="community-col">
+            <img src="./images/f1f16958fd13a1e4dcf399db444f0128.jpg">
+            <div class="layer">
+                <h3>X-Box</h3>
+            </div>
+        </div>
+        <div class="community-col">
+            <img src="./images/wallpapersden.com_windows-10-dark-logo-minimal_1080x1920.jpg">
+            <div class="layer">
+                <h3>P.C</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--store-->
+
+<section class="store">
+    <h1>GAME ON Feeds</h1>
+    <p>Your one stop destination for gaming news, about PlayStation, Xbox and PC games online in india at your fingertips.</p>
+ 
+    <div class="row">
+        <div class="store-col">
+            <img src="./images/only-on-playstation-exclusive-games-gets-gorgeous-redesigned-covers.jpg">
+        <h3>PlayStation Exclusives</h3>
+        <p>A PlayStation exclusive can only be purchased and played on PS Console.</p>
+        </div>
+
+        <div class="store-col">
+            <img src="./images/xbox_play_anywhere.jpg">
+        <h3>X-Box Exclusives</h3>
+        <p>An X-Box exclusive can only be purchased and played on an X-Box Console.</p>
+        </div>
+
+        <div class="store-col">
+            <img src="./images/websites-to-download-games.jpg">
+        <h3>P.C Games</h3>
+        <p>A P.C game can be purchased and played on any personal computer.</p>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Dedicated to all the gaming enthusiasts out there...</output></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by Ajin Sam</p>
+
+</section>
+
+
+
+    <!--javascript for toggle-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
