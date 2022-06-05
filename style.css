@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(./images/3-32664_a-small-collection-of-video-game-minimalist-wallpapers.jpg);
+    background-image: url(./images/1155211.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -61,6 +61,7 @@ nav img{
 }
 .text-box h1{
 font-size: 62px;
+color: rgb(23, 182, 245);
 }
 .text-box p{
     margin: 10px 0 40px;
